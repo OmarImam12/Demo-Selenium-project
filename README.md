@@ -1,2 +1,2 @@
 # Demo-Selenium-project
-Automation framework build on java - Selenium - TestNg .
+Automation framework built on java - Selenium - TestNg .
