@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-05T17:22:24 EET" name="LombokAutomationFramework Suite" finished-at="2022-10-05T17:23:13 EET" duration-ms="48828">
+    <groups>
+      <group name="login">
+        <method signature="RunLoginScenario.invalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ScenarioSteps.RunLoginScenario@12958360]" name="invalidLogin" class="ScenarioSteps.RunLoginScenario"/>
+        <method signature="RunLoginScenario.validLogin()[pri:2, instance:ScenarioSteps.RunLoginScenario@12958360]" name="validLogin" class="ScenarioSteps.RunLoginScenario"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2022-10-05T17:22:24 EET" name="Test Login Form " finished-at="2022-10-05T17:23:13 EET" duration-ms="48828">
+      <class name="ScenarioSteps.RunLoginScenario">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:ScenarioSteps.RunLoginScenario@12958360]" started-at="2022-10-05T17:22:25 EET" name="startBrowser" description="Browser is running" finished-at="2022-10-05T17:22:36 EET" duration-ms="10669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ScenarioSteps.RunLoginScenario@12958360]" started-at="2022-10-05T17:22:36 EET" name="invalidLogin" description="invalid case " data-provider="datareader" finished-at="2022-10-05T17:22:44 EET" duration-ms="8265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdasd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:ScenarioSteps.RunLoginScenario@12958360]" started-at="2022-10-05T17:22:44 EET" name="quitBrowser" description="Browser is closed" finished-at="2022-10-05T17:22:45 EET" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=RunLoginScenario.invalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ScenarioSteps.RunLoginScenario@12958360] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:ScenarioSteps.RunLoginScenario@12958360]" started-at="2022-10-05T17:22:45 EET" name="startBrowser" description="Browser is running" finished-at="2022-10-05T17:22:52 EET" duration-ms="6965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ScenarioSteps.RunLoginScenario@12958360]" started-at="2022-10-05T17:22:52 EET" name="invalidLogin" description="invalid case " data-provider="datareader" finished-at="2022-10-05T17:23:00 EET" duration-ms="7922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wdwd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:ScenarioSteps.RunLoginScenario@12958360]" started-at="2022-10-05T17:23:00 EET" name="quitBrowser" description="Browser is closed" finished-at="2022-10-05T17:23:00 EET" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=RunLoginScenario.invalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:ScenarioSteps.RunLoginScenario@12958360] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:ScenarioSteps.RunLoginScenario@12958360]" started-at="2022-10-05T17:23:00 EET" name="startBrowser" description="Browser is running" finished-at="2022-10-05T17:23:06 EET" duration-ms="6247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="validLogin()[pri:2, instance:ScenarioSteps.RunLoginScenario@12958360]" started-at="2022-10-05T17:23:06 EET" name="validLogin" finished-at="2022-10-05T17:23:12 EET" duration-ms="5935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="quitBrowser(org.testng.ITestResult)[pri:0, instance:ScenarioSteps.RunLoginScenario@12958360]" started-at="2022-10-05T17:23:12 EET" name="quitBrowser" description="Browser is closed" finished-at="2022-10-05T17:23:13 EET" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=RunLoginScenario.validLogin()[pri:2, instance:ScenarioSteps.RunLoginScenario@12958360] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- ScenarioSteps.RunLoginScenario -->
+    </test> <!-- Test Login Form  -->
+  </suite> <!-- LombokAutomationFramework Suite -->
+</testng-results>
